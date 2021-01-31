@@ -1,0 +1,111 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  background-image: url("https://montco.happeningmag.com/wp-content/uploads/2013/08/night-sky-hd-wallpaper-2-1024x640.jpg");
+  height: 100%;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+#margin {
+  margin-top: 110px;
+}
+
+#moviesContainer {
+  color: azure;
+  background: linear-gradient( 357deg, rgba(71, 13, 13, 0.404096672848827) 0%, rgba(71, 13, 13, 1) 100% );
+  border-radius: 30px;
+  position: relative;
+  height: 630px;
+  width: 750px;
+  padding: 20px;
+  margin: auto;
+  bottom: 30px;
+  word-wrap: wrap;
+}
+
+#descriere {
+  position: relative;
+  padding-top: 155px;
+  margin-left: 20px;
+  margin-block-start: 30px;
+  margin-top: 25px;
+
+  width: 200px;
+}
+
+#film {
+  margin-inline-end: 100px;
+  margin-block-start: 15px;
+  position: relative;
+  display: flex;
+  margin-left: 20px;
+}
+
+#maintitle {
+  width: 300px;
+  height: 100px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-weight: bold;
+  font-size: 30px;
+  
+  transition: 0.3s ease;
+}
+
+#maintitle:hover {
+  cursor: pointer;
+  text-shadow: -1px 0px 11px rgb(0, 89, 255);
+}
+
+#editmovie {
+  color: aliceblue;
+  margin-top: 30px;
+  margin-bottom: 90%;
+  padding: 10px;
+  border: none;
+  background-color: aliceblue;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 80px;
+  position: absolute;
+  right: 190px;
+  bottom: -150px;
+ 
+  transition: 0.3s ease;
+}
+
+#addMovie {
+  color: aliceblue;
+  margin-top: 30px;
+  margin-bottom: 90%;
+  padding: 10px;
+  border: none;
+  background-color: aliceblue;
+  color: black;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 80px;
+  position: absolute;
+  right: 80px;
+  bottom: -150px;
+
+  transition: 0.3s ease;
+  
+ 
+}
+
+#editmovie:hover, #addMovie:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgb(47, 121, 231);
+  font-weight: bold;
+  text-shadow: -1px 0px 11px red;
+}
+#plot {
+  padding-top: 86px;
+  width: 330px;
+}

@@ -1,0 +1,77 @@
+#menu-container{
+  position: relative;
+  left: 35%;
+  top: 5vh;
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  width: 550px;
+  height: 650px;
+}
+
+#register-container{
+  position: relative;
+  left: -150px;
+  top: -25px;
+  flex-direction: column;
+}
+
+#login-container{
+  position: relative;
+  left: 75px;
+  flex-direction: column;
+}
+
+#logout-button{
+  position: relative;
+  top: 20px;
+  left: 50px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#login-button{
+  position: relative;
+  top: 20px;
+  left: 50px;
+  border-radius: 30px;
+  padding: 10px 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#login-button:hover {
+  box-shadow: 0 5px 15px rgb(47, 121, 231);
+  font-weight: bold;
+}
+
+#signup-button{
+  position: relative;
+  top: 20px;
+  left: 40px;
+  border-radius: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 30px;
+}
+
+#signup-button:hover {
+  box-shadow: 0 5px 15px rgb(47, 121, 231);
+  font-weight: bold;
+}
+
+input{
+  padding: 10px;
+  margin-bottom: 125px;
+  cursor: pointer;
+  border-radius: 30px;
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgb(255, 255, 255);
+}
+
+label{
+  color: white;
+  font-size: 30px;
+  font-family: 'Nerko One', cursive, Arial, Helvetica, sans-serif;
+}

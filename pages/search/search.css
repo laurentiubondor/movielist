@@ -1,0 +1,231 @@
+.filterContainer {
+  margin-top:20px;
+}
+.filterContainer h2 {
+  color: white;
+}
+#buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  padding-right: 170px;
+}
+#searchMovieButton {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(23 56 107);
+  box-shadow: -1px -1px 20px 10px rgb(225, 75, 75);
+  padding: 10px 20px;
+}
+#santaHat {
+  width: 30px;
+  height: 30px;
+  margin-left: 235px;
+  margin-bottom: -42px;
+}
+.filterOption {
+  margin-left: 30px;
+}
+.filterChoiceLabel {
+  color: rgb(225, 75, 75);
+  font-weight: bold;
+  font-size: 22px;
+}
+.filterChoiceElement {
+  margin-top: 20px;
+  width: 130px;
+  height: 36px;
+  background-color: rgb(23 56 107);
+  color: white;
+  font-weight: bold;
+}
+.filterChoiceElement::placeholder {
+  font-size: 15px;
+}
+#filterOptionsContainer {
+  display: flex;
+  width: 80%;
+  overflow-x: auto;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+#loader {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 15px solid rgb(126, 126, 126);
+  border-radius: 50%;
+  border-top: 16px solid rgb(23 56 107);
+  box-shadow: -1px -1px 20px 10px rgb(5 90 217);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.renderMovies {
+  background: linear-gradient(
+    357deg,
+    rgba(71, 13, 13, 0.404096672848827) 0%,
+    rgba(71, 13, 13, 1) 100%
+  );
+  color: white;
+  width: 250px;
+  margin: 20px;
+  word-wrap: break-word;
+  border-radius: 5%;
+  transition: transform 0.2s;
+  padding: 10px;
+}
+.renderMovies:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgb(255, 255, 255);
+}
+.moviesContainerClass {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 40px;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.renderMovies img {
+  width: 220px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  height: 70px;
+  overflow: hidden;
+}
+#rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+#rate img {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+.YearRenderedValue {
+  position: relative;
+  width: 35px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  background: rgb(0 119 255);
+  color: #fff;
+  font-size: 12px;
+  display: block;
+  position: absolute;
+  transform: translate(-50%, 0);
+  border-radius: 6px;
+}
+.YearRenderedValue:before {
+  content: "";
+  position: relative;
+  width: 0;
+  height: 0;
+  border-top: 10px solid rgb(0 119 255);
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  margin-top: -1px;
+}
+.loader {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid rgb(225, 75, 75);
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; 
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+#pageButtonContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.buttonPagesId{
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  border-radius: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: rgb(225, 75, 75);
+  padding: 8px 16px;
+  text-decoration: none;
+  width:20px;
+  font-weight: bold;
+  font-size:20px;
+}
+#buttonPagesId:hover {
+  background-color: rgb(172, 154, 164);
+}
+.selectedPage {
+  background-color:  rgb(224, 202, 214);
+  font-weight: bold;
+  color: black;
+}

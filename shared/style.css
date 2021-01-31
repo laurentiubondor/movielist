@@ -1,0 +1,21 @@
+/* Css care este utilizat in mai mult pagini */
+
+/* Header, Footer & Background*/
+
+
+html {
+  min-height: 100%;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+}
+
+body {
+  background: url(images/snowflakes.gif), linear-gradient(177deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 36%, rgba(1,192,242,1) 99%);
+  background-size: cover, cover;
+  padding-top: 100px;
+  display: flex; 
+  flex-flow: column; 
+  min-height: 100vh; 
+  margin: 0;
+}

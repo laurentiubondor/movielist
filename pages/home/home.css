@@ -1,0 +1,54 @@
+.movie-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.movieDOM-style {
+  background: linear-gradient( 357deg, rgba(71, 13, 13, 0.404096672848827) 0%, rgba(71, 13, 13, 1) 100% );
+  border-radius: 5%;
+  color:white;
+  width: 250px;
+  margin: 20px;
+  word-wrap: break-word;
+  padding: 10px;
+
+  transition: 0.3s ease;
+}
+
+.movieDOM-style:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgb(255, 255, 255);
+}
+
+.movieDOM-title-style {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  height: 70px;
+  overflow: hidden;
+}
+
+.movieDOM-poster-style {
+  width: 220px;
+  height: 250px;
+  margin-bottom: 10px;
+}
+
+#movieDOM-rating-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#movieDOM-rating-style img {
+  width: 17px;
+  height: 17px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
